@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"> </script>
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Capturador de Imagens</title>
+</head>
+    <center>
+<body>
+    <div class="container">
+        <h1>Capturador de Imagens</h1>
+        <div id="objName">
+            <b class="bTAO">Objeto: Garrafa</b>
+            <hr/>
+            <b class="bTAO">Objeto: Vaso de Flor</b>
+            <hr/>
+            <b class="bTAO">Objeto: Chuteira</b>
+            <hr/>
+            <b class="bTAO">Objeto: Copo</b>
+            <hr/>
+        </div>
+        <div class="bTAO">
+            <button class="beatles" onclick="takeSnapshot()">Capturar imagem</button>
+            <button class="beatles" onclick="check()">Identificar</button>
+        </div>
+        <hr>
+        <div>
+            <p>
+                Objeto:  <span id="resultName"></span>
+            </p>
+            <p>
+                Precisão:  <span id="Presunto"></span>
+            </p>
+        </div>
+        <div id="view">
+            <div id="cam"></div>
+            <div id="foto"></div>
+        </div>
+    </div>
+</center>
+    <script src="main.js"></script>
+</body>
+</html>

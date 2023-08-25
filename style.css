@@ -1,0 +1,20 @@
+body {
+background: linear-gradient(270deg, #020000 27.99%, #292727 28.19%, #FFF 55.21%, #FFF 59.52%, #F00 59.71%);
+font-family: 'Dancing Script', cursive;
+font-size: 20px;
+}
+
+ .bTAO {
+    background:#21409594 ;
+    color : white;
+    border-radius: 25px;
+    padding: 10px;
+}
+    .beatles {
+        font-style: italic;
+        border-radius: 20px;
+        background-color: #292727;
+        color: aliceblue;
+        padding: 10px;
+    }
+ 
